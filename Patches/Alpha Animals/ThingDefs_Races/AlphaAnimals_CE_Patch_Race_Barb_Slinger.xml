@@ -20,6 +20,8 @@
 			<li Class="PatchOperationAdd">
 				<xpath>/Defs/ThingDef[defName="AA_Barbslinger"]/statBases</xpath>
 				<value>
+					<AimingAccuracy>0.65</AimingAccuracy>
+			                <ShootingAccuracyPawn>0.65</ShootingAccuracyPawn> 
 					<MeleeDodgeChance>0.1</MeleeDodgeChance>
 					<MeleeCritChance>0.4</MeleeCritChance>
 					<MeleeParryChance>0.4</MeleeParryChance>

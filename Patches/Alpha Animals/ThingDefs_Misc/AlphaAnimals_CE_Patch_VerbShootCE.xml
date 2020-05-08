@@ -32,11 +32,11 @@
 										<verbClass>CombatExtended.Verb_ShootCE</verbClass>
 											<hasStandardCommand>true</hasStandardCommand>
 											<defaultProjectile>AA_PoisonBolt</defaultProjectile>
-											<warmupTime>2</warmupTime>
+											<warmupTime>1.75</warmupTime>
 											<burstShotCount>1</burstShotCount>
 											<ticksBetweenBurstShots>2</ticksBetweenBurstShots>
-											<minRange>2</minRange>
-											<range>20</range>
+											<minRange>12</minRange>
+											<range>24</range>
 											<soundCast>AA_PoisonBolt</soundCast>
 											<muzzleFlashScale>0</muzzleFlashScale>
 											<commonality>0.8</commonality>
@@ -53,11 +53,11 @@
 										<verbClass>CombatExtended.Verb_ShootCE</verbClass>
 											<hasStandardCommand>true</hasStandardCommand>
 											<defaultProjectile>AA_PoisonBolt</defaultProjectile>
-											<warmupTime>1.5</warmupTime>
+											<warmupTime>1.25</warmupTime>
 											<burstShotCount>1</burstShotCount>
 											<ticksBetweenBurstShots>2</ticksBetweenBurstShots>
-											<minRange>2</minRange>
-											<range>30</range>
+											<minRange>12</minRange>
+											<range>36</range>
 											<soundCast>AA_PoisonBolt</soundCast>
 											<muzzleFlashScale>0</muzzleFlashScale>
 											<commonality>0.8</commonality>

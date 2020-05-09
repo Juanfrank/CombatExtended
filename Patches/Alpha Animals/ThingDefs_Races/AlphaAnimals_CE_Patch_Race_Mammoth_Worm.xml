@@ -20,7 +20,7 @@
 			<li Class="PatchOperationReplace">
 			<xpath>/Defs/PawnKindDef[defName="AA_MammothWorm"]/combatPower</xpath>
 				<value>
-					<combatPower>160</combatPower>
+					<combatPower>220</combatPower>
 				</value>
 			</li>
 			
@@ -41,7 +41,7 @@
 			<li Class="PatchOperationAdd">
 				<xpath>/Defs/ThingDef[defName="AA_MammothWorm"]/statBases</xpath>
 				<value>
-					<MeleeDodgeChance>0.08</MeleeDodgeChance>
+					<MeleeDodgeChance>0.01</MeleeDodgeChance>
 					<MeleeCritChance>0.75</MeleeCritChance>
 					<MeleeParryChance>0.23</MeleeParryChance>
 				</value>
@@ -66,17 +66,17 @@
 									</li>
 								</extraMeleeDamages>
 							</surpriseAttack>
-							<armorPenetrationBlunt>30</armorPenetrationBlunt>
+							<armorPenetrationBlunt>50</armorPenetrationBlunt>
 						</li>
 						<li Class="CombatExtended.ToolCE">
 							<capacities>
 								<li>Stab</li>
 							</capacities>
-							<power>46</power>
+							<power>48</power>
 							<cooldownTime>3</cooldownTime>
 							<linkedBodyPartsGroup>TuskAttackTool</linkedBodyPartsGroup>
-							<armorPenetrationSharp>6</armorPenetrationSharp>
-							<armorPenetrationBlunt>20</armorPenetrationBlunt>
+							<armorPenetrationSharp>20</armorPenetrationSharp>
+							<armorPenetrationBlunt>40</armorPenetrationBlunt>
 						</li>
 					</tools>
 				</value>
